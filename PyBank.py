@@ -10,7 +10,7 @@ money = 0
 prevrow = 0
 
 # Creating Pathway
-csvpath = os.path.join('..', 'Resources','budget_data.csv')
+csvpath = os.path.join('budget_data.csv')
 
 # Main Code
 with open(csvpath) as csvfile:
